@@ -1,0 +1,21 @@
+# Build and test artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Generated operator packages and local installs
+kernels/build_out/
+.artifact_opp/
+scripts/env.sh
+
+# Datasets and generated reports
+datasets/
+datasets_pt/
+results/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
