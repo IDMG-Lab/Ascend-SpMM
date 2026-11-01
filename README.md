@@ -124,3 +124,15 @@ Tolerances default to `2e-2` for FP16 and `1e-4` for FP32. The AIV bit-wise test
 - Feature width must be 16-column aligned and at most 1024 for FP16 or 512 for FP32.
 - Indices are 32-bit, so a matrix must satisfy `rows + nnz < 2^31`.
 - The supplied tests use 16-row windows.
+
+## Citation
+
+If you find Ascend-SpMM useful in your research or work, please consider citing our PPoPP '27 paper:
+
+```bibtex
+@inproceedings{Wang/etal/2027,
+  title={{Ascend-SpMM}: Accelerating Sparse Matrix-Dense Matrix Multiplication on {Ascend} {NPUs}},
+  author={Wang, Jiahe and Shao, Yingxia and Wang, Shuhan and Ge, Qingbo and Li, Hongzheng and Zhang, Yucheng},
+  booktitle={Proceedings of the 32nd ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP '27)},
+  year={2027},
+}
